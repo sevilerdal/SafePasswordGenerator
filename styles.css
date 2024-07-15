@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(28, 30, 36);
+    color: azure;
+}
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h2, .warning{
+    padding: 5px;
+    margin: 5px;
+}
+
+.result-area{
+    visibility: hidden; 
+    display: block; 
+    align-items: center;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn-gen{
+    background-color:rgb(180, 172, 135);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.result{
+    resize: none;
+    color: black;
+    user-select: all;
+    background-color: rgb(231, 231, 231);
+    border-radius: 3px;
+    border-color: rgb(43, 43, 43);
+    border-style: inset;
+}

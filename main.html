@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container" style="width: 300px; height: 200px;">
+
+            <h2>Click the button to generate a new password</h2>
+            <button class="btn-gen" id="generate-btn">Generate Password</button>
+            <div class="result-area" id="res-area">
+                <textarea class="result" name="generated" id="gen-passwd" readonly></textarea>
+                <h4 style="margin-top: 2px; font-weight: 300;" id="tip-cp">Click the text area to copy</h4>
+            </div>
+            <h4 class="warning">
+                Don't forget your password, you will not be able to see the generated password after you close this window.
+            </h4>
+        </div>
+
+        <script src="scripts/generator.js"></script>
+        <script src="scripts/copy.js"></script>
+    </body> 
+</html>
